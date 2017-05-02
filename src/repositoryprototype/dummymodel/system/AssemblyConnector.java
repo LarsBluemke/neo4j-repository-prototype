@@ -7,9 +7,7 @@ public class AssemblyConnector {
 	
 	public AssemblyConnector(OperationProvidedRole providedRole, OperationRequiredRole requiredRole) {
 		this.providedRole = providedRole;
-		this.providedRole.setConnected(true);
 		this.requiredRole = requiredRole;
-		this.requiredRole.setConnected(true);
 	}
 	
 	public OperationProvidedRole getProvidedRole() {
